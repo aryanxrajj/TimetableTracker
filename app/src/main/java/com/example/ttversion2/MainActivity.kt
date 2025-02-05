@@ -175,6 +175,8 @@ fun TT(name:String,modifier: Modifier=Modifier) {
                             "Arman" -> R.drawable.armantt
                             "Chicki" -> R.drawable.aryantt
                             "Ayushi" -> R.drawable.ayushitt
+                            "Akshay" -> R.drawable.screenshot_2025_02_05_at_12_48_40pm
+                            "Paras" -> R.drawable.parastt
                             else -> R.drawable.ic_launcher_foreground
                         }
                     ), contentDescription = null,
@@ -199,6 +201,8 @@ fun TT(name:String,modifier: Modifier=Modifier) {
                                         "Samar" -> R.drawable.samartt
                                         "Arman" -> R.drawable.armantt
                                         "Ayushi" -> R.drawable.ayushitt
+                                        "Akshay" -> R.drawable.screenshot_2025_02_05_at_12_48_40pm
+                                        "Paras" -> R.drawable.parastt
                                         else -> R.drawable.ic_launcher_foreground
                                     }
                                 ),
