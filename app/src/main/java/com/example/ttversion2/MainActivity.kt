@@ -114,7 +114,7 @@ fun OnboardingScreen(OnContinueClicked: () -> Unit,modifier: Modifier=Modifier,)
 @Composable
 fun TTApp(
     modifier: Modifier=Modifier,
-    names :List<String> = listOf("Aryan","Mistuu","Paras","Akshay","Samar","Chickki","Arman","Mohit","Ayush","Ayushi")
+    names :List<String> = listOf("Aryan","Mistuu","Paras","Akshay","Samar","Chicki","Arman","Mohit","Ayush","Ayushi")
 ){
     LazyColumn(modifier.systemBarsPadding()) {
         items(names){ name->
@@ -173,10 +173,11 @@ fun TT(name:String,modifier: Modifier=Modifier) {
                             "Mistuu" -> R.drawable.mistuutt
                             "Samar" -> R.drawable.samartt
                             "Arman" -> R.drawable.armantt
-                            "Chicki" -> R.drawable.aryantt
+                            "Chicki" -> R.drawable.chickkitt
                             "Ayushi" -> R.drawable.ayushitt
                             "Akshay" -> R.drawable.screenshot_2025_02_05_at_12_48_40pm
                             "Paras" -> R.drawable.parastt
+//                            "Ayush" -> R.drawable.
                             else -> R.drawable.ic_launcher_foreground
                         }
                     ), contentDescription = null,
@@ -203,6 +204,8 @@ fun TT(name:String,modifier: Modifier=Modifier) {
                                         "Ayushi" -> R.drawable.ayushitt
                                         "Akshay" -> R.drawable.screenshot_2025_02_05_at_12_48_40pm
                                         "Paras" -> R.drawable.parastt
+                                        "Chicki" -> R.drawable.chickkitt
+//                                        "Ayush" -> R.drawable.
                                         else -> R.drawable.ic_launcher_foreground
                                     }
                                 ),
